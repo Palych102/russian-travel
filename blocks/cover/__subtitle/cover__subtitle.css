@@ -4,15 +4,12 @@
     font-style: normal;
     font-size: 18px;
     line-height: 22px;
-    text-align: center;
-    z-index: 2;
-    margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__subtitle {
+        min-width: 288px;
         font-size: 14px;
         line-height: 16px;
-        padding: 16px 16px 32px 16px;
     }
 }

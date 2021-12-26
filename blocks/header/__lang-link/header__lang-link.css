@@ -1,19 +1,17 @@
 .header__lang-link {
-    display: inline;
-    color: white;
-    font-weight: 400;
+    padding: 0;
+    margin: 0;
     font-size: 24px;
-    font-style: normal;
     line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
 }
-
-.header__lang-link:first-child {
-    margin-right: 18px;
-}
-
-@media screen and (max-width: 320px) {
+  
+@media screen and (max-width: 767px) {
     .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
+      font-size: 18px;
+      line-height: 20px;
     }
 }
