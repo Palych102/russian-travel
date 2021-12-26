@@ -1,5 +1,11 @@
-.inter {
-    border: 1px solid green;
+.intro {
     color: white;
     padding: 92px 148px;
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        max-width: 288px;
+        padding: 64px 16px
+    }
 }

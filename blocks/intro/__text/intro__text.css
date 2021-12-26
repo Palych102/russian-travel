@@ -7,3 +7,9 @@
     padding-top: 40px;
     margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+        
+    }
+}

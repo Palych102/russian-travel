@@ -1,4 +1,19 @@
 .header__lang-link {
-    margin: 0;
-    list-style-type: none;
+    display: inline;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px;
+}
+
+.header__lang-link:first-child {
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
