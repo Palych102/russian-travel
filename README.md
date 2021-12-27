@@ -4,4 +4,4 @@
 
 ### Проект выполнен с использованием методологии БЭМ
 
-&copy Boris Sapsayko 2021
+&copy; Boris Sapsayko 2021
