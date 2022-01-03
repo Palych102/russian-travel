@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 460px 484px;
     gap: 48px 40px;
-    padding: 80px 0 0 0;
+    padding-bottom: 80px;
 }
 
 .place:last-child {
@@ -11,7 +11,6 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
-        max-width: 928px;
         gap: 48px 32px;
         grid-template-columns: 440px 456px;
     }
@@ -19,7 +18,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place {
-        padding: 73px 0;
+        padding-bottom: 73px;
         gap: 48px 28px;
         grid-template-columns: 340px 352px;
     }
@@ -27,7 +26,7 @@
 
 @media screen and (max-width: 767px) {
     .place {
-        padding: 50px 0;
+        padding-bottom: 50px;
         gap: 32px;
         grid-template-columns: minmax(288px, 1fr);
     }

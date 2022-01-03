@@ -66,3 +66,29 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link-item/footer__link-item.css);
+
+/*
+.lead {
+    outline: 1px solid red;
+}
+
+.intro {
+    outline: 1px solid red;
+}
+
+.photo-grid {
+    outline: 1px solid red;
+}
+
+.places {
+    outline: 1px solid red;
+}
+
+.cover {
+    outline: 1px solid red;
+}
+
+.footer {
+    outline: 1px solid red;
+}
+*/
